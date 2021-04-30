@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="eins.Person">
+    <void property="alter">
+     <int>12</int>
+    </void>
+    <void property="name">
+     <string>Hans</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="eins.Person">
+    <void property="alter">
+     <int>23</int>
+    </void>
+    <void property="name">
+     <string>Hubert</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

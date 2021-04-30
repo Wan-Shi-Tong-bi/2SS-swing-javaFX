@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="UE1.AbfrageController">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="141.0" prefHeight="17.0" prefWidth="600.0" text="Wirlich beenden?" />
+      <Button fx:id="beenden" layoutX="209.0" layoutY="200.0" mnemonicParsing="false" onAction="#beenden" text="Beenden" />
+      <Button fx:id="nichtBeenden" layoutX="351.0" layoutY="200.0" mnemonicParsing="false" text="Nein" />
+   </children>
+</AnchorPane>

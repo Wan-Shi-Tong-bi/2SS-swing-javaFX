@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="Aufgabe1.Person">
+  <void property="anschrift">
+   <string>Kanada</string>
+  </void>
+  <void property="geschlecht">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>Aufgabe1.Geschlecht</class>
+    <string>X</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Justin</string>
+  </void>
+  <void property="vorname">
+   <string>Bieber</string>
+  </void>
+ </object>
+</java>

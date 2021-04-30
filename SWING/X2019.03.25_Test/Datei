@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="zwei.Auto">
+    <void property="jahr">
+     <int>122</int>
+    </void>
+    <void property="staerke">
+     <string>9. Staerke</string>
+    </void>
+    <void property="typ">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zwei.Typ</class>
+      <string>BMW</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="zwei.Auto">
+    <void property="jahr">
+     <int>2</int>
+    </void>
+    <void property="staerke">
+     <string>7. Staerke</string>
+    </void>
+    <void property="typ">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zwei.Typ</class>
+      <string>AUDI</string>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
